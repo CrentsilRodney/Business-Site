@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+
+
+nav{
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+
+nav img{
+    float: left;
+    width: 100px;
+    height: 90px;
+    
+}
+
+.list{
+    font-size: 25px;
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+ul li{
+    padding: 25px;
+    line-height: 10px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px 15px;
+
+}
+
+ul li a:hover{
+    color: white;
+    background-color: red;
+    border-radius: 7px;
+    transition: 0.5s ease-in-out;
+}
+
+/*Image after the nav */
+
+.img-container{
+    width: 100%;
+}
+
+.image{
+    width: 100%;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+.container-text{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color: black;
+}
+
+
+.btns{
+    width: 30%;
+   height: 30px;
+   margin: 10px;
+   border: none;
+   cursor: pointer;
+   font-size: 15px;
+}
+
+.btns:hover{
+    transition: 0.5s ease-in-out;
+    background-color: rgba(184, 241, 24, 0.829);
+}
+
+/*Ends Here */
+
+/*About us */
+
+#about, .service-pricing{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-bottom: 90px;
+
+}
+
+.flex-items{
+    width: 40%;
+    margin: 10px;
+    
+
+}
+
+.sky{
+    width: 55%;
+}
+
+.about-content{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    
+
+}
+
+/*Ends Here */
+
+.services{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin-bottom: 120px;
+
+}
+
+
+/* Styles for servicing and pricing */
+
+.servives-and-pricing{
+    width: 30%;
+    margin: 10px;
+    box-shadow: 4px 4px 1px #ddd;
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    text-align: center;
+    
+}
+
+.info{
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 19px;
+    text-align: center;
+}
+
+/*Ends Here */
+
+
+.footer-data{
+    background-color: rgb(25, 24, 27 );
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.footer-text-content{
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    padding: 70px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.icons{
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px;
+    
+}
+
+.icons:hover{
+    color: aqua;
+}
